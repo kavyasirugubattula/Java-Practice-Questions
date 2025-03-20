@@ -12,7 +12,7 @@ public class DecimalToBinary {
             a /= 2;
             i++;
         }
-        System.out.println("Binary value is: ");
+        System.out.print("Binary value is: ");
         for(int j=i-1;j>=0;j--){
             System.out.print(binary[j]);
         }
